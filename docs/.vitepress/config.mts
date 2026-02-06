@@ -1,10 +1,18 @@
 import { defineConfig } from 'vitepress';
+import mathjax3 from 'markdown-it-mathjax3'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "石木古月",
+  markdown: {
+    config: (md) => {
+      md.use(mathjax3)
+    }
+  },
+
+  title: "石木古月的小窝",
+
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    siteTitle: '石木古月',
+
     nav: [
       { text: '首页', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
