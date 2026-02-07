@@ -1,7 +1,9 @@
 import { defineConfig } from 'vitepress';
+import { generateSidebar } from 'vitepress-sidebar'
 import mathjax3 from 'markdown-it-mathjax3'
 
 export default defineConfig({
+  // markdown 依赖
   markdown: {
     config: (md) => {
       md.use(mathjax3)
@@ -13,6 +15,7 @@ export default defineConfig({
   themeConfig: {
     siteTitle: '石木古月',
 
+    // 导航栏
     nav: [
       { text: '首页', link: '/' },
       { text: '学习笔记', items: [
@@ -22,16 +25,21 @@ export default defineConfig({
       { text: 'Examples', link: '/markdown-examples' }
     ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    // 侧边栏
+    sidebar: generateSidebar({
+      documentRootPath: 'docs',
+      scanStartPath: '/学习笔记/算法和数据结构/',
+      rootGroupText: '算法和数据结构',
+      collapsed: true,
+    }),
 
+    // 上下页链接
+    docFooter: {
+      prev: false,
+      next: false
+    },
+
+    // 社交链接
     socialLinks: [
       { icon: 'github', link: 'https://github.com/ShimuGuyue' }
     ]
