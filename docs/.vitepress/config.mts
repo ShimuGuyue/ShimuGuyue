@@ -21,8 +21,7 @@ export default defineConfig({
       { text: '学习笔记', items: [
           { text: '算法和数据结构', link: '/学习笔记/算法和数据结构/' }
         ]
-      },
-      { text: 'Examples', link: '/markdown-examples' }
+      }
     ],
 
     // 侧边栏
