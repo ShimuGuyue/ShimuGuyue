@@ -26,12 +26,14 @@ export default defineConfig({
     ],
 
     // 侧边栏
-    sidebar: generateSidebar({
-      documentRootPath: 'docs',
-      scanStartPath: '/学习笔记/算法和数据结构/',
-      rootGroupText: '算法和数据结构',
-      collapsed: true,
-    }),
+    sidebar: {
+      '/学习笔记/算法和数据结构/': generateSidebar({
+        documentRootPath: 'docs',
+        scanStartPath: '/学习笔记/算法和数据结构/',
+        rootGroupText: '算法和数据结构',
+        collapsed: true,
+      })
+    },
 
     // 上下页链接
     docFooter: {
