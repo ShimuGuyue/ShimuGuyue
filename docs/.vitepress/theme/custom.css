@@ -1,0 +1,4 @@
+html {
+  /* 默认显示滚动条 */
+  overflow-y: scroll;
+}
