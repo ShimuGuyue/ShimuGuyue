@@ -7,10 +7,10 @@ $action = New-ScheduledTaskAction -Execute 'powershell.exe' `
     -Argument "-ExecutionPolicy Bypass -File `"$file`"" `
     -WorkingDirectory $path
 
-# 定义触发器：每 5 分钟执行一次
-$trigger = New-ScheduledTaskTrigger -Once -At (Get-Date) -RepetitionInterval (New-TimeSpan -Minutes 5)
+# 定义触发器
+$trigger = New-ScheduledTaskTrigger -Once -At (Get-Date) -RepetitionInterval (New-TimeSpan -Hours 2)
 
-# 注册任务（静默后台运行）
+# 注册任务
 Register-ScheduledTask -TaskName "VitePressAutoUpdate" -Action $action -Trigger $trigger -User "System" -RunLevel Highest -Force
 # 立即执行一次
 Start-ScheduledTask -TaskName "VitePressAutoUpdate"

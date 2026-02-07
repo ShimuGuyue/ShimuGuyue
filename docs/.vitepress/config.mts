@@ -42,6 +42,12 @@ export default defineConfig({
     // 社交链接
     socialLinks: [
       { icon: 'github', link: 'https://github.com/ShimuGuyue' }
-    ]
+    ],
+
+    // 版权信息
+    footer: {
+      message: '本项目基于 CC0-1.0 协议开源',
+      copyright: '© 2026 胡岩松 版权所有'
+    }
   }
 })
