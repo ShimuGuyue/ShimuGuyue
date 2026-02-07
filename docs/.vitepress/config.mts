@@ -10,6 +10,10 @@ export default defineConfig({
     }
   },
 
+  head: [
+    ['link', { rel: 'icon', href: '/images/favicon.png' }]
+  ],
+
   title: "石木古月的小窝",
 
   themeConfig: {
