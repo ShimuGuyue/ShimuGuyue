@@ -1,5 +1,4 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
@@ -11,18 +10,18 @@ hero:
     style: 'width: 800px; max-width: 100%;'
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Codeforces
+      link: https://codeforces.com/profile/ShimuGuyue
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Github
+      link: https://github.com/ShimuGuyue
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 🎈 算法竞赛选手
+    details: 专注数据结构与算法，目标 ICPC 奖项
+  - title: 💻 后端开发者
+    details: 主攻 Modern C++，追求极致的代码性能与优雅
+  - title: 🎮 单机游戏 & ACGN 爱好者
+    details: 内容至上，注重作品的艺术性与叙事感
 ---
 
