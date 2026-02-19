@@ -38,6 +38,11 @@ export default defineConfig({
       })
     },
 
+    // 大纲
+    outline: {
+      level: [1, 3]
+    },
+
     // 上下页链接
     docFooter: {
       prev: false,
