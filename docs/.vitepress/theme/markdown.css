@@ -108,9 +108,9 @@
 .vp-doc ol,
 .vp-doc :not(pre) > code,
 .vp-doc code{
-  font-size: var(--fontsize-normal);    /* 字号 */
-  font-family: "仿宋";                /* 字体 */
-  font-weight: bold                     /* 加粗 */
+  font-size: var(--fontsize-normal);            /* 字号 */
+  font-family: "仿宋", "FangSong", "Consolas";  /* 字体 */
+  font-weight: bold                             /* 加粗 */
 }
 
 /** 斜体文本样式 */
