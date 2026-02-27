@@ -109,7 +109,7 @@
 .vp-doc :not(pre) > code,
 .vp-doc code{
   font-size: var(--fontsize-normal);    /* 字号 */
-  font-family: "新宋体";                /* 字体 */
+  font-family: "仿宋";                /* 字体 */
   font-weight: bold                     /* 加粗 */
 }
 
