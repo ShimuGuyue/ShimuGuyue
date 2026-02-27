@@ -1,0 +1,227 @@
+/*
+ * =============================
+ *  主题全局变量
+ * =============================
+**/
+
+:root {
+/** 颜色 */
+  --color-pink-soft:         #FF9EC8;       /* 柔粉 */
+  --color-pink-hot:          #FF77CC;       /* 艳粉 */
+  --color-pink-light:        #ffaaff;       /* 浅粉 */
+  --color-pink-bright:       #FFEEF8;       /* 亮粉 */
+  --color-pink-peach:        #F39ACD;       /* 桃粉 */
+  --color-pink-tender:       #FFF0F5;       /* 嫩粉 */
+  --color-purple-herrscher : #6D6AA7;       /* 侵蚀紫 */
+
+/** 字号 */
+  --fontsize-title1: 2.50rem;
+  --fontsize-title2: 2.00rem;
+  --fontsize-title3: 1.80rem;
+  --fontsize-title4: 1.55rem;
+  --fontsize-title5: 1.35rem;
+  --fontsize-title6: 1.25rem;
+  --fontsize-normal: 1.25rem;
+  --fontsize-small : 1.00rem;
+}
+
+
+
+
+
+/*
+ * =============================
+ *  标题样式
+ * =============================
+**/
+
+/** 标题字体和颜色 */
+.vp-doc h1,
+.vp-doc h2,
+.vp-doc h3,
+.vp-doc h4,
+.vp-doc h5,
+.vp-doc h6 {
+  font-family: "微软雅黑";          /* 标题字体 */
+  color: var(--color-pink-soft);    /* 标题颜色 */
+}
+
+/** 标题标识符 */
+.vp-doc h1::before {
+  content: "❀ ";   /* 一级标题前缀 */
+}
+.vp-doc h1::after {
+  content: " ❀";   /* 一级标题后缀 */
+}
+.vp-doc h2::before {
+  content: "➳ ";   /* 二级标题前缀 */
+}
+.vp-doc h2::after {
+  content: " ➳";   /* 二级标题后缀 */
+}
+.vp-doc h3::before {
+  content: "♥ ";    /* 三级标题前缀 */
+}
+.vp-doc h3::after {
+  content: " ♥";    /* 三级标题后缀 */
+}
+.vp-doc h4::before {
+  content: "♪ ";    /* 四级标题前缀 */
+}
+.vp-doc h4::after {
+  content: " ♪";    /* 四级标题前缀 */
+}
+
+/** 标题字号 */
+.vp-doc h1 {
+  font-size: var(--fontsize-title1);
+}
+.vp-doc h2 {
+  font-size: var(--fontsize-title2);
+}
+.vp-doc h3 {
+  font-size: var(--fontsize-title3);
+}
+.vp-doc h4 {
+  font-size: var(--fontsize-title4);
+}
+.vp-doc h5 {
+  font-size: var(--fontsize-title5);
+}
+.vp-doc h6 {
+  font-size: var(--fontsize-title6);
+}
+
+
+
+
+
+/*
+  *=============================
+  *文本排版样式
+  *=============================
+*/
+
+/** 常规文本样式 */
+.vp-doc p,
+.vp-doc ul,
+.vp-doc ol,
+.vp-doc :not(pre) > code,
+.vp-doc code{
+  font-size: var(--fontsize-normal);    /* 字号 */
+  font-family: "新宋体";                /* 字体 */
+  font-weight: bold                     /* 加粗 */
+}
+
+/** 斜体文本样式 */
+.vp-doc em{
+  font-family: "Consolas", "华文行楷";    /* 字体 */
+}
+
+/** 加粗文本样式 */
+.vp-doc strong {
+  color: var(--color-pink-hot);       /* 颜色 */
+}
+
+/** 链接文本样式 */
+.vp-doc a {
+  color: var(--color-pink-light);     /* 颜色 */
+}
+
+/** 删除文本样式 */
+.vp-doc del,
+.vp-doc s {
+  background-color: var(--color-purple-herrscher);  /* 删除元素背景颜色 */
+  color: var(--color-purple-herrscher);             /* 文本颜色与背景颜色相同，用于隐藏文本 */
+  border: 1px solid var(--color-purple-herrscher);  /* 边框 */
+  border-radius: 3px;                               /* 圆角 */
+  text-decoration: none;                            /* 移除删除线 */
+  transition: all 0.2s ease;                        /* 属性变化过渡时间 */
+}
+/* 鼠标悬停状态 */
+.vp-doc del:hover,
+.vp-doc s:hover {
+  background-color: var(--color-pink-bright);   /* 悬停背景颜色 */
+  color: var(--color-pink-soft);                /* 悬停文本颜色 */
+  border: 1px dashed var(--color-pink-soft);    /* 边框 */
+}
+
+/** 列表样式 */
+.vp-doc ul,
+.vp-doc ol {
+  list-style: none;                               /* 移除默认符号 */
+  padding-left: calc(2 * var(--fontsize-normal)); /* 缩进距离 */
+}
+/* 无序（外层） */
+.vp-doc ul li::before {
+  content: "❀";                            /* 符号 */
+  position: absolute;                       /* 符号位置 */
+  left: 0;                                  /* 符号坐标 */
+  color: var(--color-pink-soft);            /* 符号颜色 */
+}
+/* 无序（内层） */
+.vp-doc ul ul li::before,
+.vp-doc ol ul li::before {
+  content: "➳";                            /* 符号 */
+  position: absolute;                       /* 符号位置 */
+  left: calc(2 * var(--fontsize-normal));   /* 符号坐标 */
+  color: var(--color-pink-soft);            /* 符号颜色 */
+}
+/* 有序（外层） */
+.vp-doc ol {
+  list-style: none;         /* 移除默认符号 */
+  counter-reset: ol-count;  /* 数字计数器 */
+}
+.vp-doc ol li {
+  counter-increment: ol-count;  /* 递增数字计数器 */
+}
+.vp-doc ol li::before {
+  content: counter(ol-count) ".";   /* 显示计数器数字 */
+  position: absolute;               /* 符号定位 */
+  left: 0;                          /* 符号与文本距离 */
+  color: var(--color-pink-soft);    /* 符号颜色 */
+}
+/* 有序（内层） */
+.vp-doc ul ol,
+.vp-doc ol ol {
+  list-style: none;             /* 移除默认符号 */
+  counter-reset: xl-ol-count;   /* 数字计数器 */
+}
+.vp-doc ul ol li,
+.vp-doc ol ol li {
+  counter-increment: xl-ol-count; /* 递增罗马计数器 */
+}
+.vp-doc ul ol li::before,
+.vp-doc ol ol li::before {
+  content: counter(xl-ol-count, lower-roman) ".";   /* 显示计数器数字 */
+  position: absolute;                               /* 符号定位 */
+  left: calc(2 * var(--fontsize-normal));           /* 符号坐标 */
+  color: var(--color-pink-soft);                    /* 数字颜色 */
+}
+
+/** 引用块文本样式 */
+.vp-doc blockquote{
+  border-left: 10px solid var(--color-pink-light);  /* 引用块左侧条框 */
+  padding: 15px 30px 15px 20px;                     /* 引用块内边距 */
+}
+.vp-doc blockquote p,
+.vp-doc blockquote strong{
+  font-size: var(--fontsize-small); /* 小字号 */
+}
+
+
+
+
+
+/*
+ * =============================
+ *  代码块样式
+ * =============================
+**/
+
+/** 行内代码样式 */
+.vp-doc :not(pre) > code {
+  color: var(--color-pink-hot);                 /* 代码文字颜色 */
+  word-wrap: break-word;                        /* 换行时长单词在任意字符间断行 */
+  word-break: break-all;                        /* 允许在任意字符间断词，防止溢出 */
+}
