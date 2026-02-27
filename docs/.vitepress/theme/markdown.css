@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'myFangSong';
+  src: url('/fonts/simfang.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 /*
  * =============================
  *  主题全局变量
@@ -23,6 +31,9 @@
   --fontsize-title6: 1.25rem;
   --fontsize-normal: 1.25rem;
   --fontsize-small : 1.00rem;
+
+/** 字体 */
+  --fontfamily-normal: "myFangSong"
 }
 
 
@@ -35,15 +46,14 @@
  * =============================
 **/
 
-/** 标题字体和颜色 */
+/** 标题颜色 */
 .vp-doc h1,
 .vp-doc h2,
 .vp-doc h3,
 .vp-doc h4,
 .vp-doc h5,
 .vp-doc h6 {
-  font-family: "微软雅黑";          /* 标题字体 */
-  color: var(--color-pink-soft);    /* 标题颜色 */
+  color: var(--color-pink-soft);
 }
 
 /** 标题标识符 */
@@ -108,9 +118,9 @@
 .vp-doc ol,
 .vp-doc :not(pre) > code,
 .vp-doc code{
-  font-size: var(--fontsize-normal);            /* 字号 */
-  font-family: "仿宋", "FangSong", "Consolas";  /* 字体 */
-  font-weight: bold                             /* 加粗 */
+  font-size: var(--fontsize-normal);      /* 字号 */
+  font-family: var(--fontfamily-normal);  /* 字体 */
+  font-weight: bold                       /* 加粗 */
 }
 
 /** 斜体文本样式 */
