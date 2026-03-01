@@ -44,7 +44,7 @@ export default defineConfig({
 
     // 大纲
     outline: {
-      level: [1, 3]
+      level: [1, 4]
     },
 
     // 上下页链接
