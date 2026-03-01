@@ -7,7 +7,11 @@ node_modules/
 
 ### Vitepress
 
-docs/.vitepress/cache
-docs/.vitepress/dist
+docs/.vitepress/cache/
+docs/.vitepress/dist/
 
-docs/学习笔记/
+
+
+### VS Code
+
+*.code-workspace
