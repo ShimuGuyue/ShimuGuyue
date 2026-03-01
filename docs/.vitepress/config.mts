@@ -22,6 +22,7 @@ export default defineConfig({
     // 导航栏
     nav: [
       { text: '首页', link: '/' },
+      { text: '番剧鉴赏', link: '/番剧鉴赏' },
       { text: '算法和数据结构', link: '/算法和数据结构/' }
     ],
 
@@ -31,6 +32,12 @@ export default defineConfig({
         documentRootPath: 'docs',
         scanStartPath: '/算法和数据结构/',
         rootGroupText: '算法和数据结构',
+        collapsed: true,
+      }),
+      '/番剧鉴赏/': generateSidebar({
+        documentRootPath: 'docs',
+        scanStartPath: '/番剧鉴赏/',
+        rootGroupText: '番剧鉴赏',
         collapsed: true,
       })
     },
