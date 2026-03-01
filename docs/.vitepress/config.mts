@@ -10,6 +10,8 @@ export default defineConfig({
     }
   },
 
+  lang: 'zh-CN',
+
   head: [
     ['link', { rel: 'icon', href: '/images/favicon.png' }]
   ],
