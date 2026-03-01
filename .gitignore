@@ -15,3 +15,10 @@ docs/.vitepress/dist/
 ### VS Code
 
 *.code-workspace
+
+
+
+### Workspace
+
+docs/番剧鉴赏/
+docs/算法和数据结构/
