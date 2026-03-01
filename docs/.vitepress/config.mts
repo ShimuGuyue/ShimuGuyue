@@ -22,17 +22,14 @@ export default defineConfig({
     // 导航栏
     nav: [
       { text: '首页', link: '/' },
-      { text: '学习笔记', items: [
-          { text: '算法和数据结构', link: '/学习笔记/算法和数据结构/' }
-        ]
-      }
+      { text: '算法和数据结构', link: '/算法和数据结构/' }
     ],
 
     // 侧边栏
     sidebar: {
-      '/学习笔记/算法和数据结构/': generateSidebar({
+      '/算法和数据结构/': generateSidebar({
         documentRootPath: 'docs',
-        scanStartPath: '/学习笔记/算法和数据结构/',
+        scanStartPath: '/算法和数据结构/',
         rootGroupText: '算法和数据结构',
         collapsed: true,
       })
