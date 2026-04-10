@@ -6,21 +6,21 @@ layout: home
 
 I'm a student from **China**, studying at HNIST now.
 
-Currently, I'm focused on the *ICPC*, which is the largest algorithm competition around the world.
+Currently, I'm focused on the ***ICPC***, which is the largest algorithm competition around the world.
 
 ---
 
-I use *C++* to code because of its high execution speed and flexible memory management. *CMake* is a great tool for project management.
+I use ***C++*** to code because of its high execution speed and flexible memory management. ***CMake*** is a great tool for project management.
 
-In the near future, I'd be glad to study *Python* and *Shell* for better script writing, and *C#* for better web development.
+In the near future, I'd be glad to study ***Python*** and ***Shell*** for better script writing, and ***C#*** for better web development.
 
-Moreover, I am passionate about *game development*. It's a dream for me to work in the gaming industry and create excellent projects.
+Moreover, I am passionate about ***game development***. It's a dream for me to work in the gaming industry and create excellent projects.
 
 ---
 
-I love games, especially single-player games, such as Terraria, which I have played for 1000+ hours. Anime games are also very good, for example, I play Genshin Impact every day.
+I love ***games***, especially single-player games, such as Terraria, which I have played for 1000+ hours. Anime games are also very good, for example, I play Genshin Impact every day.
 
-I am also obsessed with ACGN, exceptional works always leave a lasting impression.
+I am also obsessed with ***ACGN***, exceptional works always leave a lasting impression.
 
 ---
 
