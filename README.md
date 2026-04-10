@@ -1,3 +1,7 @@
+---
+layout: home
+---
+
 ## Hi! Nice to meet you! 👋
 
 I'm a student from **China**, studying at HNIST now.
