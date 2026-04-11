@@ -1,8 +1,8 @@
-## Hi! Nice to meet you! 👋
+# Hi! Nice to meet you! 👋
 
 I'm a student from **China**, studying at HNIST now.
 
-Currently, I'm focused on the ***ICPC***, which is the largest algorithm competition around the world.
+Currently, I'm focusing on the ***ICPC***, which is the largest algorithm competition around the world. My codeforces handle is [ShimuGuyue](https://codeforces.com/profile/ShimuGuyue), where I am a <span style="color: #03A89E;">Specialist(1400-1599)</span>.
 
 ---
 
