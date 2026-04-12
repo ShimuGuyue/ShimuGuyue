@@ -1,26 +1,26 @@
 ## Hi! Nice to meet you! 👋
 
-I'm a student from **China**, studying at HNIST now.
+📚 I'm a student from **China**, studying at HNIST now.
 
-Currently, I'm focusing on the ***ICPC***, which is the largest algorithm competition around the world. My codeforces handle is [ShimuGuyue](https://codeforces.com/profile/ShimuGuyue), where I am a <span style="color: #03A89E;">Specialist(1400-1599)</span>.
-
----
-
-I use ***C++*** to code because of its high execution speed and flexible memory management. ***CMake*** is a great tool for project management.
-
-In the near future, I'd be glad to study ***Python*** and ***Shell*** for better script writing, and ***C#*** for better web development.
-
-Moreover, I am passionate about ***game development***. It's a dream for me to work in the gaming industry and create excellent projects.
+🏅 Currently, I'm focusing on the ***ICPC***, which is the largest algorithm competition around the world. My codeforces handle is [ShimuGuyue](https://codeforces.com/profile/ShimuGuyue), where I am a <span style="color: #03A89E;">Specialist(1400-1599)</span>.
 
 ---
 
-I love ***games***, especially single-player games, such as Terraria, which I have played for 1000+ hours. Anime games are also very good, for example, I play Genshin Impact every day.
+💻 I use ***C++*** to code because of its high execution speed and flexible memory management. ***CMake*** is a great tool for project management.
 
-I am also obsessed with ***ACGN***, exceptional works always leave a lasting impression.
+🧩 In the near future, I'd be glad to study ***Python*** and ***Shell*** for better script writing, and ***C#*** for better web development.
+
+🧑‍💻 Moreover, I am passionate about ***game development***. It's a dream for me to work in the gaming industry and create excellent projects.
 
 ---
 
-If you want to communicate with me, this is my email address: shimuguyue513@qq.com. I'm open to technical discussions, casual chats, or anything in between!
+🎮 I love ***games***, especially single-player games, such as Terraria, which I have played for 1000+ hours. Anime games are also very good, for example, I play Genshin Impact every day.
+
+💌I am also obsessed with ***ACGN***, exceptional works always leave a lasting impression.
+
+---
+
+📧 If you want to communicate with me, this is my email address: shimuguyue513@qq.com. I'm open to technical discussions, casual chats, or anything in between!
 
 >   My life motto:
 >
