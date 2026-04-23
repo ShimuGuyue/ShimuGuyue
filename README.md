@@ -2,7 +2,15 @@
 
 📚 I'm a student from **China**, studying at HNIST now.
 
-🏅 Currently, I'm focusing on the ***ICPC***, which is the largest algorithm competition around the world. My codeforces handle is [ShimuGuyue](https://codeforces.com/profile/ShimuGuyue), where I am a <span style="color: #03A89E;">Specialist(1400-1599)</span>.
+🏅 Currently, I'm focusing on the ***ICPC***, which is the largest algorithm competition around the world. My codeforces handle is [ShimuGuyue](https://codeforces.com/profile/ShimuGuyue), where I am a <span style="color:#0000FF">Expert(1600-1899)</span>. 
+
+<!--
+codecorces ratings:
+[   0, 1200) - Newbie     - #808080
+[1200, 1400) - Pupil      - #008000
+[1400, 1600) - Specialist - #03A89E
+[1600, 1900) - Expert     - #0000FF
+-->
 
 ---
 
