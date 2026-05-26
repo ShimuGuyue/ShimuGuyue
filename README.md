@@ -1,34 +1,48 @@
-## Hi! Nice to meet you! 👋
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Consolas&weight=800&size=24&letterSpacing=&pause=1000&color=FF9EC8&repeat=false&width=650&lines=Nice+to+meet+you!+I'm+ShimuGuyue%2C+a+free+soul!">
+</div>
 
-📚 I'm a student from **China**, studying at HNIST now.
+## Identity
 
-🏅 Currently, I'm focusing on the ***ICPC***, which is the largest algorithm competition around the world. My codeforces handle is [ShimuGuyue](https://codeforces.com/profile/ShimuGuyue), where my highest rank is <span style="color:#0000FF">Expert(1600-1899)</span>. 
++   I'm a student from **China**, studying at HNIST now.
 
-<!--
-codecorces ratings:
-[   0, 1200) - Newbie     - #808080
-[1200, 1400) - Pupil      - #008000
-[1400, 1600) - Specialist - #03A89E
-[1600, 1900) - Expert     - #0000FF
--->
++   Currently, I'm focusing on the **ICPC**, which is the world's largest algorithmic programming contest.<br>
+    My highest rank in Codeforces is <span style="color:#0000FF">Expert (rating 1600-1899)</span>.
 
----
++   I am passionate about ***game development***. I'm going to work in the gaming industry and create excellent projects. 
 
-💻 I use ***C++*** to code because of its high execution speed and flexible memory management. ***CMake*** is a great tool for project management.
+## Code habits
 
-🧩 In the near future, I'd be glad to study ***Python*** and ***Shell*** for better script writing, and ***C#*** for better web development.
++   I use ***C++*** to code because of its high execution speed and flexible memory management.<br>
+    ***CMake*** is really a great tool for project management.<br>
+    I use **Visual Studio** on Windows and **VS Code** anywhere.
 
-🧑‍💻 Moreover, I am passionate about ***game development***. It's a dream for me to work in the gaming industry and create excellent projects.
++   In the near future, I'd be glad to study some new programming languages.<br>
+    ***Shell*** will be very helpful for better scripting.<br>
+    ***Python*** is the same; what's more, it's so important for AI development.<br>
+    For better web development, ***C#*** is must. ~~By the way, I dislike Java a little.~~
 
----
+## Hobbies
 
-🎮 I love ***games***, especially single-player games, such as Terraria, which I have played for 1000+ hours. Anime games are also very good, for example, I play Genshin Impact every day.
++   I love ***games***. Good games are rare works of art.<br>
+    I enjoy **Single-player** games, such as Terraria, which I have played for 2000+ hours.<br>
+    **Anime-style** games are also really good, for example, I play Genshin Impact every day.
 
-💌I am also obsessed with ***ACGN***, exceptional works always leave a lasting impression.
++   I am also obsessed with ***ACGN***. Exceptional works always leave a lasting impression.
 
----
 
-📧 If you want to communicate with me, this is my email address: shimuguyue513@qq.com. I'm open to technical discussions, casual chats, or anything in between!
+## Links
+
+If you want to communicate with me, you can check out the links here. I'm open to technical discussions, casual chats, or anything in between!
+
+[![](https://img.shields.io/badge/Blog-shimuguyue.love-FF77CC?logo=readthedocs)](https://shimuguyue.love)
+[![](https://img.shields.io/badge/Codeforces-ShimuGuyue-1F8ACB?logo=codeforces)](https://codeforces.com/profile/ShimuGuyue)
+[![](https://img.shields.io/badge/Bilibili-石木古月-00A1D6?logo=bilibili)](https://space.bilibili.com/490341270)
+[![](https://img.shields.io/badge/GitHub-ShimuGuyue-181717?logo=github)](https://github.com/ShimuGuyue)<br>
+[![](https://img.shields.io/badge/Email-shimuguyue513@qq.com-EA4335?logo=gmail)](mailto:shimuguyue513@qq.com)
+[![](https://img.shields.io/badge/QQ-石木古月-1EBAFC?logo=qq)](./images/QQ.png)
+[![](https://img.shields.io/badge/WeChat-石木古月-07C160?logo=wechat&logoColor=wechat)](./images/WeChat.png)
+[![](https://img.shields.io/badge/Telegram-ShimuGuyue-26A5E4?logo=telegram)](https://t.me/ShimuGuyue)
 
 >   My life motto:
 >
