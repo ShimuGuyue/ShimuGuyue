@@ -40,8 +40,8 @@ If you want to communicate with me, you can check out the links here. I'm open t
 [![](https://img.shields.io/badge/Bilibili-石木古月-00A1D6?logo=bilibili)](https://space.bilibili.com/490341270)
 [![](https://img.shields.io/badge/GitHub-ShimuGuyue-181717?logo=github)](https://github.com/ShimuGuyue)<br>
 [![](https://img.shields.io/badge/Email-shimuguyue513@qq.com-EA4335?logo=gmail)](mailto:shimuguyue513@qq.com)
-[![](https://img.shields.io/badge/QQ-石木古月-1EBAFC?logo=qq)](./images/QQ.png)
-[![](https://img.shields.io/badge/WeChat-石木古月-07C160?logo=wechat&logoColor=wechat)](./images/WeChat.png)
+[![](https://img.shields.io/badge/QQ-石木古月-1EBAFC?logo=qq)](https://github.com/ShimuGuyue/ShimuGuyue/blob/main/images/QQ.png)
+[![](https://img.shields.io/badge/WeChat-石木古月-07C160?logo=wechat&logoColor=wechat)](https://github.com/ShimuGuyue/ShimuGuyue/blob/main/images/WeChat.png)
 [![](https://img.shields.io/badge/Telegram-ShimuGuyue-26A5E4?logo=telegram)](https://t.me/ShimuGuyue)
 
 >   My life motto:
